@@ -1,4 +1,4 @@
-#redis
+# redis
 
 1. 什么是nosql，newsql
 2. redis的常用数据类型

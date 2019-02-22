@@ -1,4 +1,4 @@
-#mysql
+# mysql
 1. mysql limit offset值过大的时候处理
 2. mysql事务
 3. mysql锁
