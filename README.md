@@ -20,15 +20,15 @@ Notice：
 
 
 
-1. nginx
-2. redis
-3. kafka
-4. php
-5. protocol
-6. python
-7. web
+1. Nginx
+2. Redis
+3. Kafka
+4. PHP
+5. Protocol
+6. Python
+7. Web
     
-        web相关的技术，比如css,js,缓存
+        Web相关的技术，比如CSS,JS缓存
 8. application_scenario 
     
         一些真实应用场景的实现，涉及到方案，不在侧重于某一个技术
@@ -40,5 +40,5 @@ Notice：
         
 #### 相关文件地址：
 
-[百度云](https://pan.baidu.com/s/1iIF_KvHQhTn80223glrw_Q)提取码: 5nic 
+1. [百度云](https://pan.baidu.com/s/1iIF_KvHQhTn80223glrw_Q)提取码: 5nic 
 
