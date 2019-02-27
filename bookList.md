@@ -11,3 +11,5 @@
 * 《Effective C++》
 * 《Unix编程艺术》《Unix高级环境编程》
 * LinkedIn代码高效复查技巧
+
+* [中国科学技术大学课程资源](https://mbinary.xyz/ustc-cs/)
