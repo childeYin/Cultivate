@@ -5,5 +5,5 @@
 3. 命名空间，__autoload，spl_autoload_register
 4. 读取文件
 5. php底层机制
-6. php垃圾会机制
+6. php垃圾回收机制
 7. 
