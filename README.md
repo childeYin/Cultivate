@@ -1,4 +1,5 @@
 # Cultivate
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 
 Notice：
@@ -41,3 +42,15 @@ Notice：
 1. [百度云](https://pan.baidu.com/s/1iIF_KvHQhTn80223glrw_Q)提取码: 5nic 
 
 ##### 感谢左耳朵耗子，涉及到的部分书籍推荐来自于左耳朵耗子的极客时间
+
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+| [<img src="https://avatars1.githubusercontent.com/u/2696746?v=4" width="100px;" alt="orangleliu"/><br /><sub><b>orangleliu</b></sub>](http://blog.csdn.net/orangleliu)<br />[🎨](#design-orangle "Design") |
+| :---: |
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
