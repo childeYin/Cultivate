@@ -17,6 +17,15 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "childeYin",
+      "name": "尹少爷",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3283699?v=4",
+      "profile": "http://test.sorryu.cn",
+      "contributions": [
+        "maintenance"
+      ]
     }
   ],
   "contributorsPerLine": 7
