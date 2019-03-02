@@ -1,0 +1,23 @@
+{
+  "projectName": "Cultivate",
+  "projectOwner": "childeYin",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "orangle",
+      "name": "orangleliu",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2696746?v=4",
+      "profile": "http://blog.csdn.net/orangleliu",
+      "contributions": [
+        "design"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
