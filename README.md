@@ -1,5 +1,5 @@
 # Cultivate
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 
 
 Notice：
@@ -49,8 +49,8 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/all-contri
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-| [<img src="https://avatars1.githubusercontent.com/u/2696746?v=4" width="100px;" alt="orangleliu"/><br /><sub><b>orangleliu</b></sub>](http://blog.csdn.net/orangleliu)<br />[🎨](#design-orangle "Design") |
-| :---: |
+| [<img src="https://avatars1.githubusercontent.com/u/2696746?v=4" width="100px;" alt="orangleliu"/><br /><sub><b>orangleliu</b></sub>](http://blog.csdn.net/orangleliu)<br />[🎨](#design-orangle "Design") | [<img src="https://avatars3.githubusercontent.com/u/3283699?v=4" width="100px;" alt="尹少爷"/><br /><sub><b>尹少爷</b></sub>](http://test.sorryu.cn)<br />[🚧](#maintenance-childeYin "Maintenance") |
+| :---: | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
