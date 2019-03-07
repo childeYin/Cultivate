@@ -10,4 +10,4 @@
     - top
     - uptime
     - iostat
-
+8. 信号
