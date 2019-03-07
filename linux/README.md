@@ -5,3 +5,9 @@
 4. Linux进程状态
 5. 并发和并行的对比？
 6. 进程和线程的关系？以及进程和线程的上下文？
+7. Linux查看负载均衡(load averages 过去的1分钟，5分钟，15分钟)
+    - w
+    - top
+    - uptime
+    - iostat
+
