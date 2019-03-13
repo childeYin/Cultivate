@@ -10,7 +10,8 @@
 8. Session vs Cookie
 9. [WebSocket详解](http://www.52im.net/forum.php?mod=viewthread&tid=331&ctid=15)
 10. [HTTPS](./https.md)
-
+11.TCP粘包，以及如何处理
+12. scoket参数TCP_NODELAY,SO_RCVTIMEO和SO_SNDTIMEO,
 
 ## Reading
 

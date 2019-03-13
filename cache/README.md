@@ -1,7 +1,7 @@
 #  Cache
 
 1. 什么是NoSQL，NewSQL
-2. Redis常用数据类型
+2. Redis常用数据类型,以及底部存储结构
 3. Redis和Memecache MongoDB对比，它为啥高性能 
 4. Redis数据落地怎么做，aof和rdb优缺点
 5. Redis集群的方案 
