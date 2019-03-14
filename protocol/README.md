@@ -12,7 +12,8 @@
 10. [HTTPS](./https.md)
 11.TCP粘包，以及如何处理
 12. scoket参数TCP_NODELAY,SO_RCVTIMEO和SO_SNDTIMEO,
-
+13. [url输入之后发生了什么](http://fex.baidu.com/blog/2014/05/what-happen/)
+    - 推荐一本书 《网络是怎么连接的》
 ## Reading
 
 * [keyless ssl原理](https://andblog.cn/?p=852)
