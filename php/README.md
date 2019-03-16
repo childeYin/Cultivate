@@ -1,6 +1,6 @@
 # PHP
 
-1. 什么是php-fpm
+1. 什么是php-fpm， 以及重启php-fpm 是如何处理得。
 2. PHP-FPM，PHP CLI ，FastCGI
 3. 命名空间，__autoload，spl_autoload_register, register_showdown_function,pcntl_fork
 4. 读取文件,
@@ -14,3 +14,9 @@
 6. php垃圾回收机制
     - refcount
     - is_ref
+7. php如何调试代码
+8. www.conf(request_slowlog_timeout, slowlog, listen.backlog，max_execution_time，request_terminate_timeout)
+9. php.ini(error_log，log_errors )
+10. 如果nginx的超时时间是10s，但是php脚本执行需要大于10s，那么log里分别有怎样的记录？
+    1.页面报错是什么？
+    2.nginx error_loc成么？
