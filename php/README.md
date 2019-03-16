@@ -18,6 +18,8 @@
 8. www.conf(request_slowlog_timeout, slowlog, listen.backlog，max_execution_time，request_terminate_timeout)
 9. php.ini(error_log，log_errors )
 10. 如果nginx的超时时间是10s，但是php脚本执行需要大于10s，那么log里分别有怎样的记录？
-    1.页面报错是什么？
-    2.nginx error_loc成么？
+    1. 页面报错是什么？
+    2. nginx error_log， php error_log, php slowlog？
+    3. nginx进程终止后，php的进程是否继续进行？ 如果php继续执行和哪个参数有关（request_terminate_timeout）
 11. php backlog 这个的作用是什么？以及如何调整
+
