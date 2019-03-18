@@ -31,6 +31,8 @@ HTTPS 是 HTTP Over TLS 的简称，具体协议内容参见 [RFC2818](https://t
 不建议使用 SSL 2.0、SSL 3.0等SSL协议以及TLS 1.0等低版本TLS协议, 建议使用TLS v1.1或更高版本，强烈建议使用TLS v1.2, 最新的是 TLS v1.3
 
 **Nginx为例，怎样优化HTTPS的性能，有哪些优化思路？**
+
+* SNI
 * session
 * ticket
 
