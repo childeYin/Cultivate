@@ -17,3 +17,12 @@
 ## Reading
 
 * [keyless ssl原理](https://andblog.cn/?p=852)
+
+
+* 网络各层和经典的协议
+
+![网络层](../imgs/protocal_level.jpg)
+
+* 网络各层的数据最小单位
+
+![](../imgs/osi_unit.png)
