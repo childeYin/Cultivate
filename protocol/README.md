@@ -21,8 +21,8 @@
 
 * 网络各层和经典的协议
 
-![网络层](../imgs/protocal_level.jpg)
+![网络层](../imgs/protocal_level.png)
 
 * 网络各层的数据最小单位
 
-![](../imgs/osi_unit.png)
+![单位](../imgs/osi_unit.png)
