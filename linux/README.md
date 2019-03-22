@@ -16,3 +16,9 @@
 9. 进程之间的通信
 10. linux锁机制
 11. linux IO模式，以及epoll，poll，select
+
+
+
+# tips:
+
+1. [linux performance observablity tool](../imgs/linux_observability_tools.png)
