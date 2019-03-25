@@ -22,4 +22,5 @@
     2. nginx error_log， php error_log, php slowlog？
     3. nginx进程终止后，php的进程是否继续进行？ 如果php继续执行和哪个参数有关（request_terminate_timeout）
 11. php backlog 这个的作用是什么？以及如何调整？
+12. null false 0 判断请用 ===  谨记
 

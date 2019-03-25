@@ -1,13 +1,23 @@
 # Nginx
 
-1. epoll网络模型和其它的对比 
+1. epoll网络模型和其它的对比
+    - epoll
+    - select
+    - poll
 2. 工作模式，与PHP如何交互
+    - fastcgi_param
 3. 负载均衡的方式，如果有一个down了，处理机制
     - 轮询
     - ip_hash（不支持backup参数）
     - url_hash
     - fair
 4. 常用的模块 
+    - ngx_mail_module
+    - ngx_http_module
+    - ngx_event_module
+    - ngx_conf_module
+    - ngx_openssl_module
+    - ngx_core_module
 5. 实现集群的高可用方案 
 6. 实现用到的算法 
 7. 惊群问题
