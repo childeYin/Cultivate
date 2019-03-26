@@ -47,6 +47,8 @@ Notice：
 
 ![logic and control](imgs/logic_and_control.png)
 
+![architecture](imgs/architecture.png)
+
 ## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):
