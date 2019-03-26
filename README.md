@@ -45,6 +45,8 @@ Notice：
 
 ##### 有效地分离 Logic、Control 和 Data 是写出好程序的关键所在！
 
+[logic and control](imgs/logic_and_control.png)
+
 ## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):
