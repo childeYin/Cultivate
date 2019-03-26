@@ -43,6 +43,8 @@ Notice：
 
 ##### 感谢左耳朵耗子，涉及到的部分书籍推荐来自于左耳朵耗子的极客时间
 
+##### 有效地分离 Logic、Control 和 Data 是写出好程序的关键所在！
+
 ## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):
