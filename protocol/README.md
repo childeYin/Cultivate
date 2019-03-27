@@ -3,6 +3,8 @@
 ##  HTTP
 1. HTTP 请求头，响应头
 2. CSRF，XSS如何防御
+    - 同源测略，白名单
+    - 过滤请求数据
 3. HTTP GET vs POST,
 4. HTTP Connection: keep-alivee with Content-Length, 
     - Connection: keep-alivee with Content-Length 连用，在复用的时候，可以知道自己接收完了信息
