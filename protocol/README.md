@@ -13,6 +13,7 @@
 6. Session vs Cookie
 7. [url输入之后发生了什么](http://fex.baidu.com/blog/2014/05/what-happen/)
     - 推荐一本书 《网络是怎么连接的》
+8. [http status code rfc2616](https://www.w3.org/Protocols/rfc2616/rfc2616-sec6.html#sec6.1.1)
 
 ## HTTPS  
 1. [HTTPS](./https.md)
