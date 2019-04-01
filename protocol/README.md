@@ -15,6 +15,27 @@
     - 推荐一本书 《网络是怎么连接的》
 8. [http status code rfc2616](https://www.w3.org/Protocols/rfc2616/rfc2616-sec6.html#sec6.1.1)
 
+## HTTP2
+1. http request header
+
+        GET / HTTP/1.1
+        Host: example.com
+        Connection: Upgrade, HTTP2-Settings
+        Upgrade: h2c
+        HTTP2-Settings: <base64url encoding of HTTP/2 SETTINGS payload>
+        
+2. http response header
+        
+        HTTP/1.1 101 Switching Protocols
+        Connection: Upgrade
+        Upgrade: h2c
+        
+        [ HTTP/2 connection ... ]
+
+### tip ：
+1. 如果服务端不支持http/2,忽略Upgrade字段，直接返回http/1.1
+
+
 ## HTTPS  
 1. [HTTPS](./https.md)
 
@@ -22,7 +43,21 @@
 ## Websocket
 1. [RFC 6455:  WebSocket Protopol](https://tools.ietf.org/html/rfc6455)
 2. [WebSocket详解](http://www.52im.net/forum.php?mod=viewthread&tid=331&ctid=15)
+3. request header
 
+        GET ws://test.com/ HTTP/1.1
+        Connection: Upgrade
+        Upgrade: websocket
+        Origin: http://example.com
+        Sec-WebSocket-Version: 13
+        Sec-WebSocket-Key: d4egt7snxxxxxx2WcaMQlA==
+        Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+4. response header
+
+        HTTP/1.1 101 Switching Protocols
+        Connection: Upgrade
+        Upgrade: websocket
+        Sec-WebSocket-Accept: gczJQPmQ4Ixxxxxx6pZO8U7UbZs=
 ## TCP
 1. TCP 三次握手，四次挥手
     - sync攻击
@@ -36,19 +71,15 @@
     - TCP_NODELAY 开始Nagle算法，减少需要传输的数据包，来优化网络
     - SO_RCVTIMEO, SO_SNDTIMEO接收和发送的超时时间
     
+5. 流量控制，拥塞控制
+    - 滑动窗口
+    
 ## Reading
 
 * [keyless ssl原理](https://andblog.cn/?p=852)
-
-
 * 网络各层和经典的协议
-
 ![网络层](../imgs/protocal_level.png)
-
 * 网络各层的数据最小单位
-
 ![单位](../imgs/osi_unit.png)
-
 * 网络通讯协议图
-
 ![tcp/ip](../imgs/tcp_ip.png)
