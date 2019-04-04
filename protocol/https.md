@@ -25,6 +25,7 @@ HTTPS 是 HTTP Over TLS 的简称，具体协议内容参见 [RFC2818](https://t
     5、key derivation function （密钥衍生算法)
 
 ![https加密算法](../imgs/https_interaction.png)
+![wireshark 抓包](../images/tls-handshake-wireshark.png)
 
 **SSL和TLS 哪些版本不推荐使用，哪些版本推荐使用？**
 
