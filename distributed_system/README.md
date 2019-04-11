@@ -1,20 +1,48 @@
 # Distrubuted System
 
-* 全局ID怎么生成(参考Vesta)
+1. 全局ID怎么生成(参考Vesta)
     - 持久型(表自增字段，Sequence生成)
     - 时间型(机器号，业务号，时间，单节点内自增ID)
     - 完成定期校对模式的一个关键
-* log如何追踪
-* 什么是分布式事务,为什么会有分布式事务
-* 分布式事务在做的时候是考虑数据的一致性还是考虑可用性较多，如何解决数据一致性
+2. log如何追踪
+    - zipkin
+3. 什么是分布式事务,为什么会有分布式事务
+4. 分布式事务在做的时候是考虑数据的一致性还是考虑可用性较多，如何解决数据一致性
     - 在互联网领域的绝大多数的场景中，都需要牺牲强一致性来换取系统的高可用性，系统往往只需要保证“最终一致性”，只要这个最终时间是在用户可以接受的范围内即可。
     - ACID(酸)，BASE(碱) 酸碱平衡
     - 最终一致的模式(查询模式，补偿模式，异步确保模式，定期校对模式，可靠消息模式，缓存一致性模式)
-* [最终一致性 + 事务补偿](https://qinnnyul.github.io/2018/09/01/distributed-tx-solutions/)
-* 分布式事务的算法 raft
-* [详解分布式协调服务 ZooKeeper](https://draveness.me/zookeeper-chubby)
-* [分布式事务的实现原理](https://draveness.me/distributed-transaction-principle)
+5. [最终一致性 + 事务补偿](https://qinnnyul.github.io/2018/09/01/distributed-tx-solutions/)
+6. 分布式事务的算法 raft
+7. [详解分布式协调服务 ZooKeeper](https://draveness.me/zookeeper-chubby)
+8. [分布式事务的实现原理](https://draveness.me/distributed-transaction-principle)
+9. 分布式全栈监控
+    - 应用层（HTTP，移动端，外部服务调用性能）
+    - 平台层软件监控（Nginx Tomcat, Redis, Kafka MySQL）
+    - 基础机器资源监控（CPU,内存，硬盘的使用率，网络的吞吐量）
+    - 如何做好（关注整理应用的SLA service level agreement,关联指标聚合， 快速故障定位，性能分析）
+10. 流量调度系统
+    - 高性能
+    - 扛流量
+    - 业务逻辑
+    - 服务化
+11. CAP定理
+    - 一致性（Consistency）：每次读取要么获得最近写入的数据，要么获得一个错误。
+    - 可用性（Availability）：每次请求都能获得一个（非错误）响应，但不保证返回的是最新写入的数据。
+    - 分区容忍（Partition tolerance）：尽管任意数量的消息被节点间的网络丢失（或延迟），系统仍继续运行
+12. 隔离设计（按服务种类隔离，按用户隔离）
+    - 定义好隔离业务的大小，粒度
+    - 系统的复杂性，成本，性能， 资源
+    - 高可用，重试，异步，中间件，控流，熔断
+    - 自动化工具
+13. 异步通讯设计（请求响应式；订阅事件方式；通过Broker方式）
+    - 不依赖消息顺序
+    - 服务消息跟踪机制
+    - 业务状态由一个总控方管理
+    - 采用ack确认机制，
+    - 处理要保证幂等
 
+
+ 
 
     
     
