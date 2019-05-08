@@ -19,7 +19,7 @@
     - top 
     - vmstat
     - sar
-    - lsof
+    - lsof -i, -p
     - perf
     - ps
     - `/proc`
