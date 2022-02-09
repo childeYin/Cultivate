@@ -1,4 +1,4 @@
-#slice
+# slice
 
 ##### 1. slice 
 
@@ -122,6 +122,8 @@
 
 	}
 ```
+
+![slice append-图片来源见参考](https://img.draveness.me/2020-03-12-15839729948451-golang-slice-append.png)
 
 * runtime/slice.go
 ```
