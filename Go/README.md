@@ -1,6 +1,7 @@
 # Go
 
 - [exerciseGo 练习 - Go程序设计语言](https://github.com/childeYin/exerciseGo.git)
+- 基于golang 1.15
 
 1. func 首字母大写 外部可引用，否则外部不可用，只能内部调用
 2. 声明变量，赋值，如果只声明了，未赋值则会自动采用零值机制。记int 0, string "", bool false
@@ -45,5 +46,4 @@ nil的slice 没有对应的底层数组。
          - 容的下： 引用原始的底层数组，将新添加的放到新位置
          - 容不下： 创建一个足够的新的底层数组，将append的值都分别放到指定位置
 12. pprof 性能分析
-
 

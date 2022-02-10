@@ -33,10 +33,20 @@
 ```
 ##### 3. 初始化slice 
 
-	* runtime/slice.go
 	* arr[0:3],slice[0:3]
-	* []int{1,2,3}
-	* make([]int,10)
+	* slice := make([]int,10)
+
+```
+
+	a := [5]int{11, 12, 13, 14, 15}
+	a = append(a, 10) //错误使用，a 为数组
+	
+	b := a[0:4] //为切片  b := make([]int,4)
+	b = append(b, 10)
+
+```
+
+* runtime/slice.go
 
 ```
 	func makeslice(et *_type, len, cap int) unsafe.Pointer {
