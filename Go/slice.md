@@ -22,6 +22,13 @@
 ```
 
 ##### 2. slice 结构体 
+```
+	type slice struct {
+		array unsafe.Pointer
+		len   int
+		cap   int
+	}
+```
 
 * reflect/value.go
 ```

@@ -30,13 +30,6 @@
 
 7. Array连续的内存空间，每个元素有唯一一个索引(或者叫下标)来访问。   
 8. slice底层，相同类型元素的可变长度的序列
-    
-        struct	Slice
-        {				// must not move anything
-            byte*	array;		// actual data
-            uintgo	len;		// number of elements
-            uintgo	cap;		// allocated number of elements
-        };
 9. slice不指定长度，slice 只能和nil做比较 其他的类型都不可以直接比较，slice的零值是nil, 值为
 nil的slice 没有对应的底层数组。
 10. slice 是否为空用len(slice) == 0
