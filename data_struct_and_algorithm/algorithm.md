@@ -26,6 +26,7 @@
         最坏时间复杂度	O(n^{2})
         平均时间复杂度	 O(n+k)
         最坏空间复杂度	 O(n*k)
+        
 6. [冒泡排序 Bubble Sort](https://zh.wikipedia.org/wiki/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F)
     
     数据结构	數組
